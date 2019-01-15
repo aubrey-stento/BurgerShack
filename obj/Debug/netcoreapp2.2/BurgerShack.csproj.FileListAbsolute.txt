@@ -1,0 +1,14 @@
+/Users/aubreystento/source/codeworks/BurgerShack/bin/Debug/netcoreapp2.2/BurgerShack.deps.json
+/Users/aubreystento/source/codeworks/BurgerShack/bin/Debug/netcoreapp2.2/BurgerShack.runtimeconfig.json
+/Users/aubreystento/source/codeworks/BurgerShack/bin/Debug/netcoreapp2.2/BurgerShack.runtimeconfig.dev.json
+/Users/aubreystento/source/codeworks/BurgerShack/bin/Debug/netcoreapp2.2/BurgerShack.dll
+/Users/aubreystento/source/codeworks/BurgerShack/bin/Debug/netcoreapp2.2/BurgerShack.pdb
+/Users/aubreystento/source/codeworks/BurgerShack/obj/Debug/netcoreapp2.2/BurgerShack.csprojAssemblyReference.cache
+/Users/aubreystento/source/codeworks/BurgerShack/obj/Debug/netcoreapp2.2/BurgerShack.csproj.CoreCompileInputs.cache
+/Users/aubreystento/source/codeworks/BurgerShack/obj/Debug/netcoreapp2.2/BurgerShack.RazorAssemblyInfo.cache
+/Users/aubreystento/source/codeworks/BurgerShack/obj/Debug/netcoreapp2.2/BurgerShack.RazorAssemblyInfo.cs
+/Users/aubreystento/source/codeworks/BurgerShack/obj/Debug/netcoreapp2.2/BurgerShack.AssemblyInfoInputs.cache
+/Users/aubreystento/source/codeworks/BurgerShack/obj/Debug/netcoreapp2.2/BurgerShack.AssemblyInfo.cs
+/Users/aubreystento/source/codeworks/BurgerShack/obj/Debug/netcoreapp2.2/BurgerShack.RazorTargetAssemblyInfo.cache
+/Users/aubreystento/source/codeworks/BurgerShack/obj/Debug/netcoreapp2.2/BurgerShack.dll
+/Users/aubreystento/source/codeworks/BurgerShack/obj/Debug/netcoreapp2.2/BurgerShack.pdb
