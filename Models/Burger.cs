@@ -2,7 +2,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BurgerShack.Models
 {
-    public class Burger{
+    public class Burger
+    {
+        public int Id { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
@@ -11,11 +13,11 @@ namespace BurgerShack.Models
         [Range(5, float.MaxValue)]
         public float Price { get; set; }
 
-        public Burger(string name, string desc, float price)
-        {
-            Name = name;
-            Description = desc;
-            Price = price;
-        }
+        // public Burger(string name, string desc, float price)
+        // {
+        //     Name = name;
+        //     Description = desc;
+        //     Price = price;
+        // }
     }
 }
