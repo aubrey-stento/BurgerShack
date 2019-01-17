@@ -14,6 +14,7 @@ namespace BurgerShack.Controllers
     public class CustomersController : ControllerBase
     {
         private readonly CustomerRepository _customerRepo;
+        private readonly CustomerBurgerRepository _customerburgerRepo;
         public CustomersController(CustomerRepository customerRepo)
         {
             _customerRepo = customerRepo;
@@ -28,6 +29,10 @@ namespace BurgerShack.Controllers
             Customer result = _customerRepo.AddCustomer(customer);
             return Created("/api/customers/" + result.Id, result);
         }
+
+        // POST api/customers
+
+
 
         // // PUT api/values/5
         // [HttpPut("{id}")]

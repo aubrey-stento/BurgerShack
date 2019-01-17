@@ -37,17 +37,17 @@ namespace BurgerShack.Repositories
         //         }
 
 
-        //         //AddLibraryBook
-        //         public LibraryBook AddLibraryBook(LibraryBook lb)
-        //         {
-        //             int id = _db.ExecuteScalar<int>(@"
-        //       INSERT INTO LibraryBooks(bookId, libraryId)
-        //       VALUES(@BookId, @LibraryId);
-        //       SELECT LAST_INSERT_ID();
-        //       ", lb);
-        //             lb.Id = id;
-        //             return lb;
-        //         }
+        //AddCustomerBurger
+        public CustomerBurger AddCustomerBurger(CustomerBurger cb)
+        {
+            int id = _db.ExecuteScalar<int>(@"
+              INSERT INTO CustomerBurgers(customerId, burgerId)
+              VALUES(@CustomerId, @BurgerId);
+              SELECT LAST_INSERT_ID();
+              ", cb);
+            cb.Id = id;
+            return cb;
+        }
 
         //         //DeleteLibraryBook
 

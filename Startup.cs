@@ -36,6 +36,7 @@ namespace BurgerShack
             services.AddTransient<BurgerRepository>();
             services.AddTransient<CustomerRepository>();
             services.AddTransient<SideRepository>();
+            services.AddTransient<CustomerBurgerRepository>();
             services.AddTransient<IDbConnection>(x => CreateDBContext());
         }
         private IDbConnection CreateDBContext()
