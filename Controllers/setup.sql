@@ -1,1 +1,1 @@
-SELECT * FROM Burgers;
+-- SELECT * FROM Burgers;

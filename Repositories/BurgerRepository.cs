@@ -54,12 +54,12 @@ namespace BurgerShack.Repositories
             }
         }
 
-        public string FindByIdAndRemove(int id)
+        public bool FindByIdAndRemove(int id)
         {
             var success = _db.Execute(@"
-                DELETE FROM Burgers WHERE Id = @id
-            ", id);
-            return success > 0 ? "successfully deleted" : "ERROR, not able to delete";
+                DELETE FROM Burgers WHERE id = @id
+            ", new { id });
+            return success > 0;
         }
 
     }

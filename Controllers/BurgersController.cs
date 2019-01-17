@@ -60,9 +60,13 @@ namespace BurgerShack.Controllers
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public string Delete(int id)
+        public ActionResult<string> Delete(int id)
         {
-            return _burgerRepo.FindByIdAndRemove(id);
+            if (_burgerRepo.FindByIdAndRemove(id))
+            {
+                return Ok("successfully deleted");
+            }
+            return BadRequest("ERROR, not able to delete"); ;
         }
     }
 }
