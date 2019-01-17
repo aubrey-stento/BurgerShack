@@ -16,7 +16,7 @@ namespace BurgerShack.Repositories
 
 
 
-        //GetBooksByCustomerId
+        //GetBurgerssByCustomerId
         public IEnumerable<Burger> GetBurgersByCustomerId(int id)
         {
             return _db.Query<Burger>($@"

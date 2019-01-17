@@ -28,5 +28,15 @@ namespace BurgerShack.Controllers
             CustomerBurger result = _customerBurgerRepo.AddCustomerBurger(cb);
             return Created("/api/customerburger/" + result.Id, result);
         }
+        [HttpGet("{id}")]
+        public ActionResult<IEnumerable<Burger>> Get(int id)
+        {
+            IEnumerable<Burger> result = _customerBurgerRepo.GetBurgersByCustomerId(id);
+            if (result != null)
+            {
+                return Ok(result);
+            }
+            return BadRequest();
+        }
     }
 }
